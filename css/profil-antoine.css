@@ -40,10 +40,6 @@ body {
     color: white;
 }
 
-.right {
-    display: flex;
-    justify-content: center;
-}
 
 .content {
     margin-top: 20px;
@@ -97,4 +93,28 @@ body {
 
 .main-content > div > img {
     width: 300px;
+}
+
+/* responsive */
+
+@media (max-width: 600px) {
+    .prenom {
+        font-size: 50px;
+        padding-left: 0px;
+    }
+    
+    .nom {
+        font-size: 50px;
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+
+    .resp-wrapper {
+        display: block;
+    }
+
+    .resp {
+        display: flex;
+        justify-content: center;
+    }
 }
