@@ -2,6 +2,7 @@
 nav {
     text-align: center;
     margin-top: 50px;
+    cursor: crosshair;
 }
 
 ul {
@@ -19,6 +20,7 @@ a {
     color: #333;
     font-size: 18px;
     transition: color 0.3s ease-in-out;
+    cursor: crosshair;
 }
 
 a:hover {

@@ -5,6 +5,7 @@ body {
     margin: 0;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+    cursor: crosshair;
 }
 
 body.home {
@@ -43,12 +44,13 @@ body.home {
 
 .profil:hover .photo {
     transform: scale(1.2);
-    cursor: pointer;
+    cursor: crosshair;
 }
 
 .profil a {
     text-decoration: none;
     color: inherit;
+    cursor: crosshair;
 }
 
 
